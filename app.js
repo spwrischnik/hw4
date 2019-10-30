@@ -9,7 +9,7 @@ console.log("My name is " + randomName);
 console.log("That was a lie.");
 
 //routes
-app.get("/index", function(req, res)
+app.get("/", function(req, res)
 {
    res.render("index.html"); 
 });
