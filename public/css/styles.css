@@ -1,0 +1,120 @@
+body 
+{
+    background-color:black; 
+    color:white;
+}
+
+figure 
+{ 
+    display: block;
+    opacity: 0.95;
+}
+
+header, main, nav, footer 
+{
+    text-align:center;
+}
+
+footer 
+{ 
+    display: flex; 
+    color:yellow; 
+    font-size: 0.8em;
+    justify-content:center;
+}
+
+h1
+{
+    font-family: 'Chilanka', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+    padding:15px;
+}
+            
+.link 
+{ 
+    background-color:green; 
+    text-align:center;
+}
+.select 
+{
+    background-color:blue; 
+    padding: .5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav a 
+{
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover 
+{
+    background-color: blue;
+    padding: .5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: crosshair;
+}
+main 
+{
+    display:flex;
+    justify-content:center;
+}
+table
+{
+    margin: 0px auto; /*centers table*/
+    border-style: dotted;
+}
+td 
+{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong
+{
+    color: white;
+}
+#table-header
+{
+    background-color: blue;
+}
+.table-row
+{
+    background-color: green;
+}
+ol
+{
+    width:500px;
+    text-align: left;
+}
+.topic
+{
+    color:yellow;
+}
+.term
+{
+    color:green;
+}
+.language
+{
+    color: blue;
+}
+.hyperlink
+{
+    font-size: 3em;
+    text-align: center;
+    color:blue;
+}
+.op
+{
+    color:red;
+}
+ul
+{
+    text-align: left;
+}

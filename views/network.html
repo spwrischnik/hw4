@@ -1,0 +1,38 @@
+<% include partials/header.ejs %>
+        <header> 
+            <h1 class = "link"> Computer Science: Topics </h1>    <!--class-->
+            <hr> 
+        </header>
+            <nav> 
+                <a href="/index">Main</a>
+                <a href="/network">Networks</a>
+                <a href="/program">Programming</a>
+                <a href="/operate">Operating Systems</a>
+            </nav>
+            
+            <br><br>
+            <main> 
+                <figure> 
+                    <img src="img/net.png" alt = "alt" width="500" height="400"> 
+                </figure>
+                
+                <ul>
+                   <p>
+                       Computer Networks are what allows us to connect to the internet. There are 7 steps that data goes through to transfer
+                       from device to device. This is called the OSI Model. Some terms related to networking are switches, modems, routers, ip address,
+                       mac address, and dhcp. 
+                   </p>
+                   <h2> Networking Definitions </h2>
+                   <li><span class = "term">Switch</span>: Hardware that connects up to 48 devices to the internet through packet switching. </li>
+                   <li><span class = "term">Modem</span>: Device that acts as a bridge between the internet and a local network. </li>
+                   <li><span class = "term">Router</span>: Connects multiple networks and routes network traffic between them. </li>
+                   <li><span class = "term">IP Address</span>: Stands for Internet Protocol address. This address is assigned to a device on a network to 
+                   allow it access to the internet. This address can be configured manually or automatically. </li>
+                   <li><span class = "term">MAC Address</span>: Stands for Media Access Control address. This is a unique address given to every device 
+                   that has a network card installed inside. </li>
+                   <li><span class = "term">DHCP</span>: Stands for Dynamic Host Configuration Protocol. This allows devices to be given IP addresses 
+                   automatically. </li>
+                   <a class = "hyperlink" href = "https://en.wikipedia.org/wiki/Computer_network">Source </a>
+                </ul>
+            </main>
+<% include partials/footer %>
